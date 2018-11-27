@@ -104,6 +104,18 @@
             <scope>provided</scope>
         </dependency>
         <!--lombok-->
+        <!--验证码-->
+        <dependency>
+            <groupId>com.baizhi</groupId>
+            <artifactId>kaptcha</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baizhi</groupId>
+            <artifactId>kaptcha-jdk14</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!--验证码-->
     </dependencies>
 
     <build>
