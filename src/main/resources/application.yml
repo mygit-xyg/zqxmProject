@@ -1,6 +1,6 @@
 server:
-  context-path: /zqxm
-  port: 8099
+  context-path: /cmfz
+  port: 8088
   jsp-servlet:
     init-parameters:
       development: true

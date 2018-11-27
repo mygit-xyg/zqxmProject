@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.dao.ProductDao">
+    <!--<select id="selectAllProductByPage" resultType="Product">
+      select * from dd_product LEFT JOIN dd_category on dd_product.cid=dd_category.category_id
+      limit #{start},#{end}
+    </select>
+    <select id="selectAllCount" resultType="int">
+      select count(*) from dd_product LEFT JOIN dd_category on dd_product.cid=dd_category.category_id
+    </select>
+
+    <delete id="muiltDelete">
+        delete from dd_product where book_id in
+        <foreach collection="array" open="(" close=")" separator="," item="ids"> #{ids} </foreach>
+    </delete>
+
+    <select id="selectCategory" resultType="ShowCate">
+      select dd_category.category_id,dd_category.category_name from dd_category
+    </select>
+    <insert id="insert">
+      insert into dd_category value(0,#{cid},
+      #{book_name},#{book_price},#{groundingDate},#{book_state},#{inventory},#{author},
+      #{press},#{editNum},#{print_date},#{print_count},#{ISBN},#{word_count},
+      #{page_count},#{style},#{page},#{pack},#{salenum},#{custome_score},
+      #{recommend},#{messages},#{author_msg},#{list},#{media_comment},#{imagePath},#{series_name},#{Dangprice},
+      #{product_image})
+    </insert>-->
+
+
+</mapper>
